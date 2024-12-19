@@ -1,18 +1,25 @@
+import SQLBasic from "../assets/SQLBasics.png";
+import SQLInter from "../assets/SQLIntermediate.png";
+import ggDA from "../assets/ggDataAnalytics.jpg";
 const myCertificate = [
     { 
-        name: "certicate 1", 
-        description: "This is my certificate 1", 
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ragdoll_cat_DSC07500_%284021848667%29.jpg/1280px-Ragdoll_cat_DSC07500_%284021848667%29.jpg"
+        name: "SQL Basic", 
+        description: "This is SQL Basic certificate", 
+        imageUrl: SQLBasic,
+        linkUrl: "https://www.hackerrank.com/certificates/f82661930356"
+        
     },
     { 
-        name: "certicate 2", 
-        description: "This is my certificate 2", 
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ragdoll_cat_DSC07500_%284021848667%29.jpg/1280px-Ragdoll_cat_DSC07500_%284021848667%29.jpg"
+        name: "SQL Intermediate", 
+        description: "This is SQL Intermediate certificate ", 
+        imageUrl: SQLInter,
+        linkUrl: "https://www.hackerrank.com/certificates/6107b9e51faf"
     },
     { 
-        name: "certicate 3", 
-        description: "This is my certificate 3", 
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ragdoll_cat_DSC07500_%284021848667%29.jpg/1280px-Ragdoll_cat_DSC07500_%284021848667%29.jpg"
+        name: "Google Data Analytics", 
+        description: "This is Google Data Analytics certificate", 
+        imageUrl: ggDA,
+        linkUrl: "https://coursera.org/share/a26a87eff2f82ad84c5e170d8271edf6"
     },
     
 ]

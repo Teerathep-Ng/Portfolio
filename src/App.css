@@ -1,10 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 #root {
   width: 100%;
   margin: 0 auto;
   text-align: center;
   color: white;
-  background-color: black;
   cursor: default;
+  font-family: "Poppins";
+  
+  background: radial-gradient(circle at 10% 20%, rgba(0, 0, 0, 1), transparent 70%), /* ซ้ายบน - ดำสนิท */
+  radial-gradient(circle at 80% 15%, rgba(20, 0, 0, 0.9), transparent 60%), /* ขวาบน - ดำแดงอ่อน */
+  radial-gradient(circle at 30% 85%, rgba(60, 0, 255, 0.8), transparent 50%), /* ซ้ายล่าง - แดงเข้ม */
+  radial-gradient(circle at 70% 70%, rgba(100, 0, 0, 0.7), transparent 50%), /* ขวาล่าง - แดงกลาง */
+  radial-gradient(circle at 40% 50%, rgba(150, 0, 0, 0.6), transparent 60%), /* กลางจอ - แดงหม่น */
+  radial-gradient(circle at 60% 40%, rgba(200, 0, 0, 0.5), transparent 70%), /* ขวากลางบน - แดงสด */
+  radial-gradient(circle at 50% 80%, rgb(255, 0, 0), transparent 100%); /* กลางล่าง - แดงสว่าง */
+  background-color: #000;
+
+  background-attachment: fixed;
+  background-size: cover;
+  animation: move-bg 10s infinite linear;
+
+}
+@keyframes move-bg {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 25% 25%;
+  }
+  50% {
+    background-position: 50% 50%;
+  }
+  75% {
+    background-position: 75% 75%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
 }
 
 .nav-link {
@@ -16,6 +48,25 @@
   transition: color 0.3s ease;
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* ความกว้างของ Scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #333; /* สีพื้นหลังของ Track */
+  border-radius: 10px; /* ขอบโค้ง */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* สีของ Scrollbar */
+  border-radius: 10px; /* ขอบโค้ง */
+  border: 2px solid #333; /* ขอบรอบ Scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: red; /* สีของ Scrollbar เมื่อ Hover */
+}
 
 .logo {
   height: 6em;

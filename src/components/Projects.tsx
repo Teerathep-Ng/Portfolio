@@ -15,15 +15,15 @@ const Projects: React.FC = () => {
 
 
     return (
-        <section id="projects" className="flex flex-col gap-6">
-            <h1 className="text-6xl">Projects</h1>
+        <section id="projects" className="flex flex-col min-w-screen min-h-screen gap-6">
+            <h1 className="text-6xl">My Projects</h1>
             {/* แสดงปุ่มสำหรับเลือกหมวดหมู่โปรเจกต์ */}
-            <div className="flex justify-center gap-4">
+            <div className="flex justify-center gap-6">
                 {categories.map((category) => (
                     <button
                         key={category}
                         onClick={() => setCategoryProject(category)}
-                        className={`w-20 h-12 rounded-full ${categoryProject === category ? 'bg-slate-600 text-white' : 'bg-white text-slate-600'}`}
+                        className={`w-20 h-12 rounded-full border-white border backdrop-blur bg-opacity-15 hover:opacity-20 transition-color duration-500 ${categoryProject === category ? 'bg-slate-700 text-white' : 'bg-white'}`}
                     >
                         {category}
                     </button>
@@ -31,13 +31,14 @@ const Projects: React.FC = () => {
             </div>
 
             {/* แสดงรายการโปรเจกต์ที่กรองตามหมวดหมู่ที่เลือก */}
-            <div className="flex gap-4 justify-center">
+            <div className="flex gap-4 justify-center ">
                 {filterredCategory.map((project) => (
                     <ItemCard 
                     key={project.name}
                     title={project.name}
-                    image={project.image}
+                    imageUrl={project.imageUrl}
                     description={project.description}
+                    linkUrl={project.linkUrl}
                     />
                 ))}
             </div>
