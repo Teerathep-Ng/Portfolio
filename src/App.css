@@ -6,7 +6,8 @@
   color: white;
   cursor: default;
   font-family: "Poppins";
-  
+  /* cursor: none; */
+
   background: radial-gradient(circle at 10% 20%, rgba(0, 0, 0, 1), transparent 70%), /* ซ้ายบน - ดำสนิท */
   radial-gradient(circle at 80% 15%, rgba(20, 0, 0, 0.9), transparent 60%), /* ขวาบน - ดำแดงอ่อน */
   radial-gradient(circle at 30% 85%, rgba(60, 0, 255, 0.8), transparent 50%), /* ซ้ายล่าง - แดงเข้ม */
@@ -47,6 +48,9 @@
   color: rgb(227, 12, 12);
   transition: color 0.3s ease;
 }
+
+
+
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
