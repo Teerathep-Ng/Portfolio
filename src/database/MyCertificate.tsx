@@ -1,6 +1,8 @@
 import SQLBasic from "../assets/SQLBasics.png";
 import SQLInter from "../assets/SQLIntermediate.png";
 import ggDA from "../assets/ggDataAnalytics.jpg";
+import DSB12 from "../assets/Data Science Bootcamp 12.png"
+
 const myCertificate = [
     { 
         name: "SQL Basic", 
@@ -20,6 +22,12 @@ const myCertificate = [
         description: "This is Google Data Analytics certificate", 
         imageUrl: ggDA,
         linkUrl: "https://coursera.org/share/a26a87eff2f82ad84c5e170d8271edf6"
+    },
+    { 
+        name: "Data Science Bootcamp 12", 
+        description: "This is Data Science from DataRockie certificate", 
+        imageUrl: DSB12,
+        linkUrl: "/certificate-of-completion-for-data-science-bootcamp-12.pdf"
     },
     
 ]

@@ -107,3 +107,22 @@
 .read-the-docs {
   color: #888;
 }
+
+/* แต่งแถบ Slide Bar */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 8px; /* ความสูงของแถบเลื่อนแนวนอน */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05); /* สีพื้นหลังรางเลื่อน */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(to right, #6366f1, #a855f7); /* สีของตัวเลื่อน (Gradient) */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #a855f7; /* สีตอนเอาเมาส์ไปวาง */
+}

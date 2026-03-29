@@ -13,6 +13,9 @@ const Navbar: React.FC = () => {
                 <Link to="experience" smooth={true} offset={-80} className="nav-link"><li>Experience</li></Link>
                 <Link to="projects" smooth={true} offset={-80} className="nav-link"><li>Projects</li></Link>
                 <Link to="certificate" smooth={true} offset={-80} className="nav-link"><li>Certificates</li></Link>
+                <a href="/Resume_Teerathep_Ngampukdeekul.pdf" target="_blank" rel="noopener noreferrer" className="nav-link">
+                    <li>Resume</li>
+                </a>
             </ul>
 
             <div className="flex gap-6">
