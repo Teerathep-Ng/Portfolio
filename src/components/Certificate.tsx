@@ -16,7 +16,7 @@ const Certificate: React.FC = () => {
 
            
 
-            <div className="flex justify-center gap-4">
+            <div className="flex justify-center gap-4 flex-wrap">
 
                 {myCertificate.map((certificate) => (
 
