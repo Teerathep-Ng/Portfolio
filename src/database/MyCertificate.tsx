@@ -2,10 +2,17 @@ import SQLBasic from "../assets/SQLBasics.png";
 import SQLInter from "../assets/SQLIntermediate.png";
 import ggDA from "../assets/ggDataAnalytics.jpg";
 import DSB12 from "../assets/Data Science Bootcamp 12.png"
-import DCFP from "../assets/Introduction to Python DataCamp-1.png"
-import DCIP from "../assets/Intermediate  Python DataCamp-1.png"
+import DCFP from "../assets/Introduction-to-Python-DataCamp-1.png"
+import DCIP from "../assets/Intermediate-Python-DataCamp-1.png"
 
-const myCertificate = [
+export type CertificateType = {
+  linkUrl: string;
+  name: string;
+  imageUrl: string;
+  description: string;
+};
+
+const myCertificate: CertificateType[] = [
     { 
         name: "SQL Basic", 
         description: "SQL Basic certificate", 
@@ -31,21 +38,18 @@ const myCertificate = [
         imageUrl: DSB12,
         linkUrl: "/certificate-of-completion-for-data-science-bootcamp-12.pdf"
     },
-    ,
     { 
         name: "Data Science Bootcamp 12", 
         description: "Introduction to Python from DataCamp Certificate", 
         imageUrl: DCFP,
         linkUrl: "/Introduction-to-Python-DataCamp.pdf"
     },
-    ,
     { 
         name: "Data Science Bootcamp 12", 
         description: "Intermediate Python from DataCamp Certificate", 
         imageUrl: DCIP,
         linkUrl: "Intermediate-Python-DataCamp.pdf"
-    },
-    
+    }
 ]
 
 export default myCertificate
