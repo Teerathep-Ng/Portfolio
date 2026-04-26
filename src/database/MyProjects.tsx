@@ -1,4 +1,5 @@
 import TeaBlended from "../assets/ProjectTeaBlended.png"
+import NetflixInvestigate1990s from "../assets/NetflixInvestigate1990s.png"
 
 const myProjects = [
     { 
@@ -12,9 +13,17 @@ const myProjects = [
     { 
         name: "Blended Tea E-Commerce", 
         category: "Dev", 
-        description: "This is a group project aimed at encouraging people to drink more health-beneficial tea. It supports local farmers by promoting their agricultural products and uses eco-friendly, biodegradable materials and packaging. The project also appeals to health-conscious tea drinkers and introduces innovative tea recipes based on current trends.", 
+        description: "Group project aimed at encouraging people to drink more health-beneficial tea. It supports local farmers by promoting their agricultural products and uses eco-friendly, biodegradable materials and packaging. The project also appeals to health-conscious tea drinkers and introduces innovative tea recipes based on current trends.", 
         imageUrl: TeaBlended,
         linkUrl: "https://sprint-2-frontend-teerathep-ngampukdeekuls-projects.vercel.app/"
+    },
+
+    {
+        name: "INVESTIGATING NETFLIX MOVIES", 
+        category: "Data", 
+        description: "This project analyzes Netflix data to investigate filmmaking trends in the 1990s by identifying the most frequent movie duration, counting short-form action movies (under 90 minutes), and determining the most popular film genres of that decade using data filtering and statistical summarization techniques.", 
+        imageUrl: NetflixInvestigate1990s,
+        linkUrl: "https://colab.research.google.com/drive/14L6WC7eH_ZLAVmApLbm_Pr_DqK0Ut18x?usp=sharing"
     }
 ]
 
