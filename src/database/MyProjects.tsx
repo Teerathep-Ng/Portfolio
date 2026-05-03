@@ -1,5 +1,5 @@
 import TeaBlended from "../assets/ProjectTeaBlended.png"
-import NetflixInvestigate1990s from "../assets/NetflixInvestigate1990s.png"
+import NetflixInvestigate1990s from "../assets/Netflix_Cover.png"
 
 const myProjects = [
     { 
@@ -21,9 +21,9 @@ const myProjects = [
     {
         name: "INVESTIGATING NETFLIX MOVIES", 
         category: "Data", 
-        description: "This project analyzes Netflix data to investigate filmmaking trends in the 1990s by identifying the most frequent movie duration, counting short-form action movies (under 90 minutes), and determining the most popular film genres of that decade using data filtering and statistical summarization techniques.", 
+        description: "This project analyzes Netflix data to investigate film making trends in the 1990s by identifying the most frequent movie duration, counting short-form action movies (under 90 minutes), and determining the most popular film genres of that decade using data filtering and statistical summarization techniques.", 
         imageUrl: NetflixInvestigate1990s,
-        linkUrl: "https://colab.research.google.com/drive/14L6WC7eH_ZLAVmApLbm_Pr_DqK0Ut18x?usp=sharing"
+        linkUrl: "https://drive.google.com/file/d/1iOA69mOrw05mZfuEWuLf0xIREsVa5hJa/view?usp=sharing"
     }
 ]
 
